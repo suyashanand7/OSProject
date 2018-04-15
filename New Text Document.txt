@@ -1,0 +1,15 @@
+interface Sayable
+{
+public String say();
+}
+public class LambdaExpressionExample3
+{
+public static void main(String[] args)throws IOException
+{
+Sayable s=()->
+{
+return ("I Have Nothing To Say.");
+};
+System.out.println(s.say());
+}
+}
